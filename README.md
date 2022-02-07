@@ -461,3 +461,15 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
+
+# DEFINICION DEL PRODUCTO "EL CESAR"
+El Cesar es una aplicación web que ayuda a **crear claves** seguras mediante el uso de la técnica **cifrado de Cesar.**
+## Principales usuarios del producto
+Personas que tienen muchas cuentas pero usan la misma contraseña para todas. y cuando crean una contraseña diferente a menudo se les olvida al poco tiempo de haberla creado.
+## Objetivos de estos usuarios en relación con el producto
+- Tener contraseñas seguras para sus cuentas.
+- Poder descifrar las contraseñas que crearon.
+
+## Como "EL CESAR" esta resolviendo los problemas del usuario
+Con esta aplicacion pueden usar la contraseña que siempre recuerdan y cifrarla las veces que quieran, de esta manera pueden obtener contraseñas nuevas.
+
