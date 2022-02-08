@@ -476,3 +476,5 @@ El Cesar es una aplicación web que ayuda a **crear claves** seguras mediante el
 - al generar una contraseña cifrada pueden tener un nivel de seguridad mayor para proteger sus cuentas.
 - A menudo las personas que usan una misma contraseña para todas sus cuentas, crean una contraseña diferente y se les olvida al poco tiempo de haberla creado.Con esta aplicacion pueden usar la contraseña que siempre recuerdan y cifrarla las veces que quieran, de esta manera pueden obtener contraseñas nuevas.
 
+## Prototipo Inicial
+![prototipo](https://user-images.githubusercontent.com/98620685/153032288-5f0be34a-120f-442c-9a2f-e4ab244ba70a.jpg)
