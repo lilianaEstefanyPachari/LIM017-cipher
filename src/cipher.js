@@ -46,7 +46,7 @@ const cipher = {
         startDecode += 26;
       }
       if (startDecode > 90) {
-        //si la nueva letra es mayor que 90 o sea Z
+        // si la nueva letra es mayor que 90 o sea Z
         startDecode -= 26;
       }
       //obteniendo la letra

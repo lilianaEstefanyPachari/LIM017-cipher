@@ -29,7 +29,7 @@ describe('cipher', () => {
       expect(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
     });
 
-    // Hacker edition
+    //   Hacker edition
     //
     // [Español]
     // Si decides agregar soporte para minúsculas descomenta el test a

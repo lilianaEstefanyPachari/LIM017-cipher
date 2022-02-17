@@ -56,14 +56,14 @@ function functionSaveData() {
   document.getElementById("cipherKey").value = stringCipher;
 }
 
-//poner en mayuscula todo el texto del input decode
+// poner en mayuscula todo el texto del input decode
 document.getElementById("decodeKey").onkeyup = function(){myFunctionToUpperCaseDecode()};
 
 function myFunctionToUpperCaseDecode() {
   let theInput = document.getElementById("decodeKey");
   theInput.value = theInput.value.toUpperCase();
 }
-//obtener datos del input text y number
+//  obtener datos del input text y number
 const startDecode = document.getElementById("decodeBtn");
 startDecode.addEventListener("click", functionSaveDecodeData);
 
