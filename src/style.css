@@ -1,0 +1,35 @@
+#encodePage{
+    display: none;
+}
+#decodePage{
+    display: none;
+}
+
+
+
+
+
+body{
+    background-color: rgb(226, 198, 171);
+}
+.logo {
+    display: block;
+  }
+
+h1{
+    color: rgb(92, 42, 2);
+}
+
+#originalKey {
+    border-color: gray;
+    background-color: rgb(245, 233, 181);
+    padding: 20px;
+    }
+#shift{
+    border-color: gray;    
+    }
+#cipherKey{
+    border-color: gray;
+    background-color: papayawhip;
+    padding: 20px;
+    }
