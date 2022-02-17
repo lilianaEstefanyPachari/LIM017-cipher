@@ -460,9 +460,6 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-<<<<<<< HEAD
-* [ ] Permite usar un `offset` negativo.
-=======
 * [ ] Permite usar un `offset` negativo.
 
 # DEFINICION DEL PRODUCTO "EL CESAR"
@@ -481,4 +478,3 @@ El Cesar es una aplicación web que ayuda a **crear claves** seguras mediante el
 
 ## Prototipo Inicial
 ![prototipo](https://user-images.githubusercontent.com/98620685/153032288-5f0be34a-120f-442c-9a2f-e4ab244ba70a.jpg)
->>>>>>> 3ef4c387b133be19c145ad962374e164a5d70f6f

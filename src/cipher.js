@@ -58,4 +58,4 @@ const cipher = {
   },
 };
 
-export default cipher; //exportando el objeto cipher
+export default cipher; 
