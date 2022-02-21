@@ -8,85 +8,110 @@
     />
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/25ef76d706.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
-      <header>
-        <nav>
-          <ul>
-            <li id="home">inicio</li>
-            <li id="aboutUs">sobre nosotros</li>
-            <li id="contactUs">contactanos</li>
-          </ul>
-        </nav>
-        <div class="logo">
-          <img src="img/logo.png" alt="soy un logo" width="155px" />
-          <h1>"EL CESAR"<br>ʕ•ᴥ•ʔ</h1>
-          <h3 id="pageMessage"></h3>
-          <hr />  
+    <!-- pantalla de inicio -->
+    <section id="homepage">
+      <div id="title">
+        <h1>EL CESAR</h1>
+      </div>
+
+      <div id="logo">
+        <img src="img/logo.png" alt="soy un logo" width="350px" />
+      </div>
+
+      <div>
+        <button id="encodePageBtn" class="homepageButton">CREAR CLAVE CIFRADA</button>
+      </div>
+      <div>
+        <button id="decodePageBtn" class="homepageButton">DESCIFRA LA CLAVE</button>
+      </div>
+
+      <div>
+        <p>
+          Con "El Cesar" puedes cifrar o descifrar tus contraseñas de manera
+          facil y rapida!
+        </p>
+      </div>
+    </section>
+
+    <!--el header  -->
+    <header id="head">
+      <div>
+        <button id="homeBtn">volver</button>
+        <h3 id="pageMessage"></h3>
+      </div>
+    </header>
+
+    <section id="encodePage">
+      <div id="OriginalInput">
+        <!--campo para ingresar el texto original-->
+        <div id="keyDiv">
+          <label for="originalKey" class="labelForBtn">Ingresa la clave:</label>
+          <input type="text" id="originalKey" placeholder="ingresa aqui!" />
         </div>
-      </header>
-  <div id= "homepage">
-    <button id="encodePageBtn"> CREAR CLAVE CIFRADA</button>
-    <button id="decodePageBtn"> DESCIFRA LA CLAVE</button>
-  </div>
 
+        <!--campo de desplazamiento-->
+        <div id="offsetDiv">
+          <label for="offset" class="labelForBtn"
+            >Numero de desplazamiento:</label>
+          <input type="number" id="offset" />
+        </div>
 
-
-  <div id="encodePage">
-    <section id="OriginalInput">
-      <!--campo para ingresar el texto original-->
-      <p>
-        <label for="originalKey">Ingresa la clave:</label>
-        <input type="text" id="originalKey" placeholder="ingresa aqui!"/>
-      </p>
-
-      <!--campo de desplazamiento-->
-      <p>
-        <label for="offset">Numero de desplazamiento:</label>
-        <input type="number" id="offset" />
-      </p>
-
-      <input type="button" value="cifrar" id="cipherButton"/>
+        <input type="button" value="cifrar" id="cipherButton" />
+      </div>
+      <!--campo texto cifrado-->
+      <div id="cipherMessage">
+        
+          <label for="cipherKey" class="labelForBtn">clave cifrada:</label>
+          <input type="text" id="cipherKey" /> 
+          <button id="clearButtonEnc">Limpiar</button>
+                
+      </div>
     </section>
 
-    <!--campo texto cifrado-->
-    <section id="cipherMessage">
-      <p>
-        <label for="cipherKey">clave cifrada:</label>
-        <input type="text" id="cipherKey" />
-      </p>
-    </section>
-  </div>
+    <section id="decodePage">
+      <div>
+        <!--campo para ingresar texto a descifrar-->
+        
+          <label for="decodeKey" class="labelForBtn"
+            >Ingresa la clave a descifrar:</label
+          >
+          <input type="text" id="decodeKey" placeholder="ingresa aqui!" />
+        
 
+        <!--campo de desplazamiento-->
+        
+          <label for="offsetDecode" class="labelForBtn"
+            >Numero de desplazamiento:</label
+          >
+          <input type="number" id="offsetDecode" />
+        
 
-  <div id="decodePage">
-    <section>
-      <!--campo para ingresar texto a descifrar-->
-      <p>
-        <label for="decodeKey">Ingresa la clave a descifrar:</label>
-        <input type="text" id="decodeKey" placeholder="ingresa aqui!"/>
-      </p>
+        <input type="button" value="Descifrar" id="decodeBtn" />
+      </div>
 
-      <!--campo   de desplazamiento-->
-      <p>
-        <label for="offsetDecode">Numero de desplazamiento:</label>
-        <input type="number" id="offsetDecode" />
-      </p>
-
-      <input type="button" value="Descifrar" id="decodeBtn"/>
-    </section>
-
-    <!--campo texto descifrado-->
-    <section>
-      <p>
-        <label for="myDecodeKey">Clave descifrada:</label>
-        <input type="text" id="myDecodeKey" />
-      </p>
+      <!--campo texto descifrado-->
+      <div>
+        
+          <label for="myDecodeKey" class="labelForBtn">Clave descifrada:</label>
+          <input type="text" id="myDecodeKey" />
+        
+        
+          <button id="clearButtonDec">Limpiar</button>
+        
+      </div>
     </section>
 
-    
-  </div>
 
 
     <script src="index.js" type="module"></script>

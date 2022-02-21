@@ -2,10 +2,11 @@ import cipher from "./cipher.js";
 //cipher.encode();
 //cipher.decode();
 
-
+//mostrar u ocultar secciones
 const encodePage = document.getElementById("encodePageBtn");
 encodePage.addEventListener("click", showEncodePage);
 function showEncodePage() {
+  document.getElementById("homeBtn").style.display = "block";
   document.getElementById("encodePage").style.display = "block";
   document.getElementById("homepage").style.display = "none";
   document.getElementById("pageMessage").style.display = "block";
@@ -15,31 +16,31 @@ function showEncodePage() {
 const decodePage = document.getElementById("decodePageBtn");
 decodePage.addEventListener("click", showDecodePage);
 function showDecodePage() {
+  document.getElementById("homeBtn").style.display = "block";
   document.getElementById("decodePage").style.display = "block";
   document.getElementById("homepage").style.display = "none";
   document.getElementById("pageMessage").style.display = "block";
   document.getElementById("pageMessage").innerHTML = "DESCIFRA TU CLAVE!";
-
 }
 
-const toHomepage = document.getElementById("home");
+const toHomepage = document.getElementById("homeBtn");
 toHomepage.addEventListener("click", showHomepage);
 function showHomepage() {
   document.getElementById("homepage").style.display = "block";
   document.getElementById("encodePage").style.display = "none";
   document.getElementById("decodePage").style.display = "none";
   document.getElementById("pageMessage").style.display = "none";
+  document.getElementById("homeBtn").style.display = "none";
 }
 
-
-//poner en mayuscula todo el texto del input
+//poner en mayuscula todo el texto del input ENCODE
 document.getElementById("originalKey").onkeyup = function(){myFunctionToUpperCase()};
 
 function myFunctionToUpperCase() {
   var theInput = document.getElementById("originalKey");
   theInput.value = theInput.value.toUpperCase();
 }
-//obtener datos del input text y number
+//obtener datos del input text y number ENCODE
 const start = document.getElementById("cipherButton");
 start.addEventListener("click", functionSaveData);
 
@@ -56,14 +57,14 @@ function functionSaveData() {
   document.getElementById("cipherKey").value = stringCipher;
 }
 
-// poner en mayuscula todo el texto del input decode
+// poner en mayuscula todo el texto del input DECODE
 document.getElementById("decodeKey").onkeyup = function(){myFunctionToUpperCaseDecode()};
 
 function myFunctionToUpperCaseDecode() {
   let theInput = document.getElementById("decodeKey");
   theInput.value = theInput.value.toUpperCase();
 }
-//  obtener datos del input text y number
+//  obtener datos del input text y number DECODE
 const startDecode = document.getElementById("decodeBtn");
 startDecode.addEventListener("click", functionSaveDecodeData);
 
@@ -78,4 +79,21 @@ function functionSaveDecodeData() {
   }
   let stringDecode = cipher.decode(offsetValue, stringValue);
   document.getElementById("myDecodeKey").value = stringDecode;
+}
+
+//limpiar campos
+const clearBtn = document.getElementById("clearButtonEnc");
+clearBtn.addEventListener("click",clearEncode);
+function clearEncode(){
+  document.getElementById("originalKey").value="";
+  document.getElementById("offset").value="";
+  document.getElementById("cipherKey").value ="";
+}
+
+const decodeClearBtn = document.getElementById("clearButtonDec");
+decodeClearBtn.addEventListener("click",clearDecode);
+function clearDecode(){
+  document.getElementById("decodeKey").value="";
+  document.getElementById("offsetDecode").value="";
+  document.getElementById("myDecodeKey").value ="";
 }

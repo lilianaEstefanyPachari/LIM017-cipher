@@ -463,16 +463,15 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * [ ] Permite usar un `offset` negativo.
 
 # DEFINICION DEL PRODUCTO "EL CESAR"
-El Cesar es una aplicación web que ayuda a **crear claves** seguras mediante el uso de la técnica **cifrado de Cesar.**
+El Cesar es una aplicación web que ayuda a **crear claves** seguras mediante el uso de la técnica **cifrado de Cesar,** que es un tipo de cifrado por sustitución, consiste en sustituir cada letra del texto original por otra letra  que se encuentra desplazada un número fijo de posiciones  más adelante.
+
 ## Principales usuarios del producto
 - personas que desean generar una contraseña segura.
-- Personas que tienen muchas cuentas (email,redes sociales,suscripciones,etc) pero usan la misma contraseña para todas, teniendo asi todas sus cuentas vulnerables.
+- Personas que tienen muchas cuentas (email,redes sociales,suscripciones,etc) pero usan la misma contraseña para todas, teniendo asi sus cuentas vulnerables, Por tal motivo se ha creado esta herramienta online, en donde el usuario podra ingresar la contraseña que desea cifrar y a su vez tambien tendra la opcion de descifrar la contraseña en el mommento que lo necesite de manera facil y rapida.
 
-## Objetivos de estos usuarios en relación con el producto
-- Tener contraseñas seguras para sus cuentas.
-- descifrar las contraseñas que crearon.
 
-## Como "EL CESAR" esta resolviendo los problemas del usuario
+
+## Como "EL CESAR" esta resolviendo los problemas de nuestro usuario
 - al generar una contraseña cifrada pueden tener un nivel de seguridad mayor para proteger sus cuentas.
 - A menudo las personas que usan una misma contraseña para todas sus cuentas, crean una contraseña diferente y se les olvida al poco tiempo de haberla creado.Con esta aplicacion pueden usar la contraseña que siempre recuerdan y cifrarla las veces que quieran, de esta manera pueden obtener contraseñas nuevas.
 
