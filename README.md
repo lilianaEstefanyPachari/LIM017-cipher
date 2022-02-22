@@ -1,3 +1,44 @@
+# DEFINICION DEL PRODUCTO "EL CESAR"
+"El Cesar" es una aplicación web que ayuda a **crear claves** cifradas mediante el uso de la técnica **cifrado de Cesar,** que es un tipo de cifrado por sustitución, consiste en sustituir cada letra del texto original por otra letra  que se encuentra desplazada un número fijo de posiciones más adelante.
+En este proyecto se usa el alfabeto simple (solamente mayúsculas y sin ñ):
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+## Principales usuarios del producto
+- personas que desean generar una contraseña segura.
+- Personas que tienen muchas cuentas (email,redes sociales,suscripciones,etc) pero usan la misma contraseña para todas, teniendo asi sus cuentas vulnerables, Por tal motivo se ha creado esta herramienta online, en donde el usuario podra ingresar la contraseña que desea cifrar y a su vez tambien tendra la opcion de descifrar la contraseña en el mommento que lo necesite de manera facil y rapida.
+
+## Como "EL CESAR" esta resolviendo los problemas de nuestro usuario
+- al generar una contraseña cifrada pueden tener un nivel de seguridad mayor para proteger sus cuentas.
+- A menudo las personas que usan una misma contraseña para todas sus cuentas, crean una contraseña diferente y se les olvida al poco tiempo de haberla creado.Con esta aplicacion pueden usar la contraseña que siempre recuerdan y cifrarla las veces que quieran, de esta manera pueden obtener contraseñas nuevas.
+
+## Desarrollo del proyecto 
+1.	Aprender que es el cifrado César.
+2.	Determinar la temática, el tipo de usuario y como ayuda nuestra web a solucionar su problema.
+3.	Realizar bocetos con el diseño del prototipo inicial.
+4.	Realizar la estructura básica de la página con HTML, inputs y button necesarios para poder hacer el cifrado.
+5.	Capturar los valores de entrada que ingresa el usuario para tener los valores de los parámetros para nuestra función encode y decode.
+6.	Empezar con las funciones encode y decode.
+7.	Correr los test y corregir los errores que se detectan.
+8.	Aplicar diseño con CSS al proyecto.
+
+## Instrucciones de uso
+1.	Para ingresar a la página web el usuario deberá ingresar al siguiente link: 
+2.	Deberá escoger entre las opciones de cifrar o descifrar clave, según sea el caso.
+3.	Si elige la opción de cifrado se le mostrará una sección donde deberá ingresar la clave a cifrar, el numero de desplazamiento y como resultado se le devolverá la clave cifrada.
+4.	Si elige la opción de descifrado se le mostrará una sección donde deberá ingresar la clave a descifrar, el número de desplazamiento con la que fue cifrada, y como resultado se le devolverá la clave descifrada.
+5.	Finalmente podrá limpiar lo campos usados para volver a usar el programa las veces que desee.
+
+## Prototipo Inicial
+![prototipo inicial](https://user-images.githubusercontent.com/98620685/155237427-0770cfc9-77be-4118-91d3-66b18b5f3fea.jpg)
+## Vista de las diferentes secciones de la página
+### Página Principal
+![homepage](https://user-images.githubusercontent.com/98620685/155164759-b9678eae-810d-4945-b484-764194b0867e.jpg)
+### Página encode
+![cipherPage](https://user-images.githubusercontent.com/98620685/155165307-0de6dac9-6360-4caf-828c-0f9881abc621.jpg)
+### Página decode
+![decodePage](https://user-images.githubusercontent.com/98620685/155165413-a85e3966-6061-4880-b438-0c45682635dc.jpg)
+
+
 # Cifrado César
 
 ## Índice
@@ -462,18 +503,3 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
 
-# DEFINICION DEL PRODUCTO "EL CESAR"
-El Cesar es una aplicación web que ayuda a **crear claves** seguras mediante el uso de la técnica **cifrado de Cesar,** que es un tipo de cifrado por sustitución, consiste en sustituir cada letra del texto original por otra letra  que se encuentra desplazada un número fijo de posiciones  más adelante.
-
-## Principales usuarios del producto
-- personas que desean generar una contraseña segura.
-- Personas que tienen muchas cuentas (email,redes sociales,suscripciones,etc) pero usan la misma contraseña para todas, teniendo asi sus cuentas vulnerables, Por tal motivo se ha creado esta herramienta online, en donde el usuario podra ingresar la contraseña que desea cifrar y a su vez tambien tendra la opcion de descifrar la contraseña en el mommento que lo necesite de manera facil y rapida.
-
-
-
-## Como "EL CESAR" esta resolviendo los problemas de nuestro usuario
-- al generar una contraseña cifrada pueden tener un nivel de seguridad mayor para proteger sus cuentas.
-- A menudo las personas que usan una misma contraseña para todas sus cuentas, crean una contraseña diferente y se les olvida al poco tiempo de haberla creado.Con esta aplicacion pueden usar la contraseña que siempre recuerdan y cifrarla las veces que quieran, de esta manera pueden obtener contraseñas nuevas.
-
-## Prototipo Inicial
-![prototipo](https://user-images.githubusercontent.com/98620685/153032288-5f0be34a-120f-442c-9a2f-e4ab244ba70a.jpg)
