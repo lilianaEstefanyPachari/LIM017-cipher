@@ -1,6 +1,4 @@
 import cipher from "./cipher.js";
-//cipher.encode();
-//cipher.decode();
 
 //mostrar u ocultar secciones
 const encodePage = document.getElementById("encodePageBtn");
@@ -34,7 +32,9 @@ function showHomepage() {
 }
 
 //poner en mayuscula todo el texto del input ENCODE
-document.getElementById("originalKey").onkeyup = function(){myFunctionToUpperCase()};
+document.getElementById("originalKey").onkeyup = function () {
+  myFunctionToUpperCase();
+};
 
 function myFunctionToUpperCase() {
   var theInput = document.getElementById("originalKey");
@@ -57,8 +57,11 @@ function functionSaveData() {
   document.getElementById("cipherKey").value = stringCipher;
 }
 
+
 // poner en mayuscula todo el texto del input DECODE
-document.getElementById("decodeKey").onkeyup = function(){myFunctionToUpperCaseDecode()};
+document.getElementById("decodeKey").onkeyup = function () {
+  myFunctionToUpperCaseDecode();
+};
 
 function myFunctionToUpperCaseDecode() {
   let theInput = document.getElementById("decodeKey");
@@ -83,17 +86,17 @@ function functionSaveDecodeData() {
 
 //limpiar campos
 const clearBtn = document.getElementById("clearButtonEnc");
-clearBtn.addEventListener("click",clearEncode);
-function clearEncode(){
-  document.getElementById("originalKey").value="";
-  document.getElementById("offset").value="";
-  document.getElementById("cipherKey").value ="";
+clearBtn.addEventListener("click", clearEncode);
+function clearEncode() {
+  document.getElementById("originalKey").value = "";
+  document.getElementById("offset").value = "";
+  document.getElementById("cipherKey").value = "";
 }
 
 const decodeClearBtn = document.getElementById("clearButtonDec");
-decodeClearBtn.addEventListener("click",clearDecode);
-function clearDecode(){
-  document.getElementById("decodeKey").value="";
-  document.getElementById("offsetDecode").value="";
-  document.getElementById("myDecodeKey").value ="";
+decodeClearBtn.addEventListener("click", clearDecode);
+function clearDecode() {
+  document.getElementById("decodeKey").value = "";
+  document.getElementById("offsetDecode").value = "";
+  document.getElementById("myDecodeKey").value = "";
 }

@@ -15,13 +15,20 @@ h1{
     font-size: 8em;
     color: rgb(129, 29, 4);
     margin: 0 auto;
+    text-shadow: -1.5px -1px 1px #000
+}
+#title {
+    width: 60%;
+    height: 160px; 
+    margin-left: 6%;
 }
 
 h3{
     margin: 2% 0%;
-    font-size: 3em;
+    font-size: 3.5em;
     font-family: 'Luckiest Guy', cursive;
     color: rgb(129, 29, 4);
+    text-shadow: -1px -1px 1px #000
 }
 p{
     font-size: 2.7em;
@@ -34,14 +41,10 @@ p{
     padding: 2.7%;
     border-radius: 20px;
     border: 4px solid rgba(184, 245, 239);
-
+    position: relative;
+    z-index: 2;
 }
-
-.labelForBtn{
-    font-size: 2em !important;
-    font-family: 'Acme', sans-serif;
-}
-
+/* fondo y botones*/
 body{
     background: rgb(247,170,15);
     background: linear-gradient(90deg, rgba(247,170,15,1) 48%, rgba(181,72,55,1) 100%, rgba(80,69,106,0.969625350140056) 100%);
@@ -53,23 +56,18 @@ body{
     border-radius: 20px;
     border: 4px solid rgba(184, 245, 239);
 }
-#title {
-    width: 60%;
-    height: 160px; 
-    margin-left: 6%;
-
-    /* background-color: yellow; */
-    /* clear: both; */
-}
 
 #logo {
     width: 32%;
     height: 350px; 
     float: right;
-    /* background-color: yellow; */
     margin-top: -140px;
     margin-right: 7%;
-    /* position: relative; */
+}
+.labelForBtn{
+    font-size: 2em !important;
+    font-family: 'Acme', sans-serif;
+    margin-right: 1%;
 }
 .homepageButton {
     background-color: rgb(52, 237, 219);
@@ -86,13 +84,21 @@ body{
     height: 2.6em;
 }
 
+#back{
+    background-color:#207dd8;
+    border-radius: 0px 0px 20px 20px;
+    height: 9em;
+    position: relative;
+    z-index: 1;
+    margin-top: -9em;
+}
+/* vista encode  */
+
 #pageMessage{
     text-align: center;
-    /* background-color: chartreuse; */
-
 }
 
-#encodePage {
+.encodeDecodeSection {
     padding: 2%;
     margin: 0 auto;
     width: 50%;
@@ -112,46 +118,41 @@ body{
     width: 8em;
     height: 2.5em;
 }
-/* #keyDiv {
-    width: 80%;
-    margin: 0 auto; 
 
-} */
-#offsetDiv{
-    margin-top: 3%;
+.offsetDiv{
+    margin-top: 4%;
 }
 
-
-
-
- 
-#originalKey {
-    background-color: rgb(245, 233, 181);
-    width: 19em;
+.userKey {
+    background-color: rgb(245, 233, 181);  
     height: 1.7em;
     padding: 1%;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 1.2em;
-    color: rgb(129, 29, 4);
-    
-    }
-#offset {
+    color: rgb(129, 29, 4);    
+}
+#originalKey{
+    width: 21em;
+}
+
+.offsetStyle {
     background-color: rgb(245, 233, 181);
-    width: 7.5em;
     height: 1.6em;
     padding: 1%;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 1.2em;
     color: rgb(129, 29, 4);
-    } 
+    text-align:center;
+} 
 
-#cipherButton {
+#offset{
+    width: 13em;
+}
+
+.cipherButton {
     background-color: rgb(52, 237, 219);
-    /* padding: 1%; */
-    /* margin-top: 3%;
-    margin-left: 22%; */
     margin: 4% 40%;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
@@ -163,19 +164,20 @@ body{
     height: 2.5em;
 }
 
-#cipherKey {
+.cipherKey {
     background-color: rgb(245, 233, 181);
-    width: 19em;
     height: 1.7em;
     padding: 1%;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 1.2em;
     color: rgb(129, 29, 4);
-    
-    }
+}
+#cipherKey{
+    width: 19.3em;
+}
 
-#clearButtonEnc {
+.clearButton {
         background-color: rgb(52, 237, 219);
         /* padding: 1%; */
         /* margin-top: 3%;
@@ -189,21 +191,20 @@ body{
         border: 4px solid rgba(218, 242, 240);
         width: 8em;
         height: 2.5em;
-    }
+}
 
+/* vista decode */
+#decodeKey{
+    width: 15em;
+}
 
+#offsetDecode{
+    width: 13.8em;
+}
 
-
-    /*
-#shift{
-    border-color: gray;    
-    }
-#cipherKey{
-    border-color: gray;
-    background-color: papayawhip;
-    padding: 20px;
-    }
-    */
+#myDecodeKey{
+    width: 18.1em;
+}
 
 
 
