@@ -1,0 +1,211 @@
+/* ocultar pantallas que se mostraran luego */
+#encodePage{
+    display: none;
+}
+#decodePage{
+    display: none;
+}
+#homeBtn{
+    display: none;
+}
+/* style letras */
+h1{
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 8em;
+    color: rgb(129, 29, 4);
+    margin: 0 auto;
+    text-shadow: -1.5px -1px 1px #000
+}
+#title {
+    width: 60%;
+    height: 160px; 
+    margin-left: 6%;
+}
+
+h3{
+    margin: 2% 0%;
+    font-size: 3.5em;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(129, 29, 4);
+    text-shadow: -1px -1px 1px #000
+}
+p{
+    font-size: 2.7em;
+    font-family: 'Acme', sans-serif;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10% ;
+    text-align: justify;
+    background: rgb(247, 229, 186);
+    padding: 2.7%;
+    border-radius: 20px;
+    border: 4px solid rgba(184, 245, 239);
+    position: relative;
+    z-index: 2;
+}
+/* fondo y botones*/
+body{
+    background: rgb(247,170,15);
+    background: linear-gradient(90deg, rgba(247,170,15,1) 48%, rgba(181,72,55,1) 100%, rgba(80,69,106,0.969625350140056) 100%);
+}
+
+#homepage {
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 20px;
+    border: 4px solid rgba(184, 245, 239);
+}
+
+#logo {
+    width: 32%;
+    height: 350px; 
+    float: right;
+    margin-top: -140px;
+    margin-right: 7%;
+}
+.labelForBtn{
+    font-size: 2em !important;
+    font-family: 'Acme', sans-serif;
+    margin-right: 1%;
+}
+.homepageButton {
+    background-color: rgb(52, 237, 219);
+    padding: 10px 20px;
+    margin-top: 3%;
+    margin-left: 22%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: rgb(129, 29, 4);
+    border-radius: 20px;
+    border: 4px solid rgba(218, 242, 240);
+    width: 17em;
+    height: 2.6em;
+}
+
+#back{
+    background-color:#207dd8;
+    border-radius: 0px 0px 20px 20px;
+    height: 9em;
+    position: relative;
+    z-index: 1;
+    margin-top: -9em;
+}
+/* vista encode  */
+
+#pageMessage{
+    text-align: center;
+}
+
+.encodeDecodeSection {
+    padding: 2%;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 20px;
+    border: 4px solid rgba(184, 245, 239);
+}
+
+#homeBtn {
+    background-color: rgb(52, 237, 219);
+    margin-bottom: 1%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    color: rgb(129, 29, 4);
+    border-radius: 20px;
+    border: 4px solid rgba(218, 242, 240);
+    width: 8em;
+    height: 2.5em;
+}
+
+.offsetDiv{
+    margin-top: 4%;
+}
+
+.userKey {
+    background-color: rgb(245, 233, 181);  
+    height: 1.7em;
+    padding: 1%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: rgb(129, 29, 4);    
+}
+#originalKey{
+    width: 21em;
+}
+
+.offsetStyle {
+    background-color: rgb(245, 233, 181);
+    height: 1.6em;
+    padding: 1%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: rgb(129, 29, 4);
+    text-align:center;
+} 
+
+#offset{
+    width: 13em;
+}
+
+.cipherButton {
+    background-color: rgb(52, 237, 219);
+    margin: 4% 40%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    color: rgb(129, 29, 4);
+    border-radius: 20px;
+    border: 4px solid rgba(218, 242, 240);
+    width: 8em;
+    height: 2.5em;
+}
+
+.cipherKey {
+    background-color: rgb(245, 233, 181);
+    height: 1.7em;
+    padding: 1%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: rgb(129, 29, 4);
+}
+#cipherKey{
+    width: 19.3em;
+}
+
+.clearButton {
+        background-color: rgb(52, 237, 219);
+        /* padding: 1%; */
+        /* margin-top: 3%;
+        margin-left: 22%; */
+        margin: 4% 40%;
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 1em;
+        color: rgb(129, 29, 4);
+        border-radius: 20px;
+        border: 4px solid rgba(218, 242, 240);
+        width: 8em;
+        height: 2.5em;
+}
+
+/* vista decode */
+#decodeKey{
+    width: 15em;
+}
+
+#offsetDecode{
+    width: 13.8em;
+}
+
+#myDecodeKey{
+    width: 18.1em;
+}
+
+
+
+
